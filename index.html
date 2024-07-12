@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amitoje Singh Bakshi - Portfolio</title>
+    <title>Amitoje Singh Bakshi</title>
     <style>
         /* Reset styles */
         * {
@@ -22,14 +19,28 @@
         header {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items:center ;
+            height: 10%;
+            width: 100%;
             padding: 20px;
+            margin-right: 10%;
+            position: fixed;
         }
 
         .logo {
-            text-align: center;
+            
+            text-align: left;
+            justify-items: center;
             font-size: 24px;
-            color: #ffee00;
+            color: #2027ff;
+            margin-left: 1%;
+        }
+       
+       
+        .logo:hover {
+            font-size: 28px;
+            color: #ffffff;
+            margin-left: 1%;
         }
 
         nav ul {
@@ -38,30 +49,44 @@
         }
 
         nav ul li {
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #ffffff;
-            transition: color 0.3s ease;
-        }
-
-        nav ul li a:hover {
-            color: #ffee00;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
+            margin-right:27px;
             text-align: center;
         }
 
+        nav ul li a {
+            color: #ffffff;
+            transition: color 0.3s ease;
+
+        }
+
+        nav ul li a:hover {
+            color: #99ff0b;
+            text-underline-offset:10 ;
+            font-size: large;
+            font-style: italic;
+            font-stretch: ultra-expanded;
+            
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0px;
+            max-height: 36;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+
+        
         h2 {
-            font-size: 36px;
+            font-size: 50px;
+            margin-bottom: 15px;
+            color: #e3d61e;
+        }
+        h2:hover{
+            font-size: 55px;
             margin-bottom: 20px;
-            color: #ffee00;
+            color: #95ff00;
         }
 
         .subheading {
@@ -71,7 +96,15 @@
             margin-bottom: 20px;
             color: #888888;
         }
-
+       
+        .subheading:hover {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #888888;
+        }
         section {
             padding: 80px 0;
         }
@@ -94,29 +127,26 @@
         }
 
         footer {
-            background-color: #1c1c24;
+            background-color: #240f0f;
             padding: 20px;
             text-align: center;
-            position: fixed;
             bottom: 0;
             width: 100%;
+            height: 20%;
+            z-index: 40px;
         }
 
         footer p {
-            color: #888888;
+            color: #d9e1fc;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
-        }
+       
     </style>
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>Amitoje Singh Bakshi</h1>
+            <h1><a href="https://www.instagram.com/amitojesinghbakshi?igsh=NjZrcjIxZm9vNXUy"></a> Amitoje Singh Bakshi</h1>
         </div>
         <nav>
             <ul>
@@ -132,7 +162,7 @@
         <div class="container">
             <h2>About</h2>
             <p class="subheading">Sales and Business Coach | Founder of StudyFliss</p>
-            <p>Amitoje Singh Bakshi is a seasoned sales and business coach currently leading his startup, StudyFliss, in the Ed-tech industry. Previously, he achieved approximately 1.5 lakh in sales at his digital marketing agency, Apka Soft Tech.</p>
+            <p style="width: 100%";>Amitoje Singh Bakshi is a seasoned sales and business coach currently leading his startup, StudyFliss, in the Ed-tech industry. Previously, he achieved approximately 1.5 lakh in sales at his digital marketing agency, Apka Soft Tech.</p>
         </div>
     </section>
 
@@ -156,7 +186,7 @@
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact";">
         <div class="container">
             <h2>Contact</h2>
             <p class="subheading">Get in touch</p>
